@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="formularios" class="py-3">
+
+                    <h2 class="text-center">FORMULARIOS</h2>
+
+
+                    <form class="formLog" action="#" method="get">
+                        <p> <span class="titulosForm"> Formulario de Login</span></p>
+
+                        <fieldset>
+                            <legend>Identificación</legend>
+                            <input type="text" name="usuario" id="" placeholder="Usuario"><br>
+                            <input type="password" name="contraseña" id="" placeholder="contraseña"> <br>
+                            <input type="submit" value="Login">
+                        </fieldset>
+
+                    </form>
+
+
+                    <form class="formReg" action="#" method="get">
+                        <p class="titulosForm"> Formulario de registro </p>
+                        <fieldset>
+                            <legend>registro</legend>
+                                <p><label for="">Input type text </label>
+                                    <input type="text" name="usuario" id=""
+                                        placeholder="Ingrese su usuario"> 
+                                </p>
+                                <p><label for="">Input type text</label>
+                                    <input type="password" name="password"
+                                        placeholder="Ingrese su contraseña">
+                                </p>
+
+                                <p><label for="">Fecha nacimiento
+                                 <select name="tag" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                                <select name="tag" id="">
+                                    <option value="1">Enero</option>
+                                    <option value="2">Febrero</option>
+                                    <option value="3">Marzo</option>
+                                    <option value="4">Abril</option>
+                                    <option value="5">Mayo</option>
+                                    <option value="6">Junio</option>
+
+                                </select>
+                                <select name="tag" id="">
+                                    <option value="1">2000</option>
+                                    <option value="2">2001</option>
+                                    <option value="3">2002</option>
+                                    <option value="4">2003</option>
+                                    <option value="5">2004</option>
+                                    <option value="6">2005</option>
+                                </select>
+                                    
+                                </label></p>
+                                <p><label for="">Comentarios: <br>
+                                <textarea name="comment" id="" rows="10" cols="60"></textarea>
+
+                                <p><label for="">Aficiones:</label><br>
+                                    <input type="checkbox" name="Cine" id="">Cine <br>
+                                    <input type="checkbox" name="Musica" id="">Música <br>  
+                                    <input type="checkbox" name="Deportes" id="">Deporttes <br>
+                                    <input type="checkbox" name="Fiesta" id="">Fiesta <br>
+                                </p>
+
+                                <p><label for="">Estado civil:</label><br>
+                                    <input type="radio" name="Estado civil" id="">Casado/a <br>
+                                    <input type="radio" name="Estado civil" id="">Soltero/a <br>
+                                    <input type="radio" name="Estado civil" id="">Viuedo/a <br>
+                                    <input type="radio" name="Estado civil" id="">Otros
+                                    
+                                </p>
+                                <p>
+                                    <label for="">Provincia:</label><br>
+                                    <select name="tag" id="" multiple>
+                                    <option value="Toledo">Toledo</option>
+                                    <option value="C.Real">C.Real</option>
+                                    <option value="Guadalajara">Guadalajara</option>
+                                    <option value="Cuenca">Cuenca</option>
+                                    <option value="Albacete">Albacete</option>
+                                </select>
+
+                                </p>
+                                <p>
+                                    <label for="">Sube una foto</label>
+                                    <input type="file">
+                                </p>
+
+                                        <input type="submit" value="Enviar">
+
+
+                        </fieldset>
+                    </form>
+                    <div class="cb"></div>
+
+                    <h4 class="text-center">Formulario con HTML5: </h4>
+
+
+                    <form class="formHtml" action="kk.php" method="post">
+                        <fieldset>
+                            <legend>HTML 5</legend>
+                            <p>
+                                <label for="">Color:</label><input type="color">
+                            </p>
+                            <p>
+                                <label for="">Date:</label> <input type="Date" name="" id="">
+                            </p>
+                            <p>
+                                <label for="">Datetime:</label> <input type="datetime">
+                            </p>
+                            <p> 
+                                <label for="">Datetime:</label> <input type="datetime" name="" id="">
+                            </p>
+                            <p>
+                                <label for="">Email:</label> <input type="email">
+                            </p>
+                            <p>
+                                <label for="">Month:</label> <input type="month">
+                            </p>
+                            <p>
+                                <label for="">number</label> <input type="number">
+                            </p>
+                            <p>
+                                <label for="">Rango</label> <input type="range">
+                            </p>
+                            <p>
+                                <label for="">Tel</label> <input type="tel">
+                            </p>
+                            <p>
+                                <label for="">Time</label> <input type="Time">
+                            </p>
+                            <p>
+                                <label for="">Url</label> <input type="url">
+                            </p>
+                            <p>
+                                <label for="">Week</label> <input type="week">
+                            </p>
+                            <input type="submit" value="Enviar">
+                        </fieldset>
+                    </form>
+
+
+
+
+
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Ivan Barría</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="listas" class="py-3">
+                    <h2 class="text-center">Listas</h2>
+                    <p><span class="titulos">Listas desordenadas</span></p>
+                    <ul><span class="titulosListas">Ciudades</span>
+                        <li>Madrid</li>
+                        <li>Toledo</li>
+                        <li>Valencia</li>
+                        <li>Barcelona</li>
+                    </ul>
+                    <p><span class="titulos">Listas ordenadas</span></p>
+                    <ol> <span class="titulosListas">Tabla liga</span> 
+                        <li>Real madrid</li>
+                        <li>Barcelona</li>
+                        <li>Atlético de Madrid</li>
+                        <li>Villarreal</li>
+                    </ol>
+                    <p><span class="titulos">Listas desordenadas de varios niveles</span></p>
+                   
+                    <ul> <span class="titulosListas">Equipos</span>
+                        <li>Madrid
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Barcelona
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <p><span class="titulos">Listas ordenadas de varios niveles</span></p>
+                    <ul> <span class="titulosListas">Equipos</span>
+                        <li>Madrid
+                            <ol>
+                                <li>Masculino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                                <li>Femenino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Barcelona
+                            <ol>
+                                <li>Masculino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                                <li>Femenino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    
+                    <p><span class="titulos">Listas desordenadas con distinto niveles customizada</span></p>
+                    <ul class="customdes"> <span class="titulosListas">Equipos</span>
+                        <li>Madrid
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Barcelona
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <p><span class="titulos">Listas ordenadas de varios niveles customizada</span></p>
+                    <ol class="customord"> <span class="titulosListas">Equipos</span>
+                        <li>Madrid
+                            <ol>
+                                <li>Masculino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                                <li>Femenino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Barcelona
+                            <ol>
+                                <li>Masculino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                                <li>Femenino
+                                    <ol>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                    
+                    <p><span class="titulos">Listas desordenadas con distinto niveles customizada con icono</span></p>
+                    <ul class="customico1"> <span class="titulosListas">Equipos</span>
+                        <li>Madrid
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul class="customico2">
+                        </li>
+                        <li>Barcelona
+                            <ul>
+                                <li>Masculino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                                <li>Femenino
+                                    <ul>
+                                        <li>Plantilla</li>
+                                        <li>Calendario</li>
+                                        <li>Trayectoria</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Ivan Barría</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

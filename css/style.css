@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(18, 0, 110);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta{
+    color: purple;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.atributo{
+    color: rgb(0, 182, 0);
+    font-size: 24px;
+}
+.enlaces{
+    color: blue;
+    font-size: 18px;
+}
+.titulos{
+    color: rgb(248, 41, 0);
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    
+}
+.titulosListas{
+    color: rgb(159, 0, 159);
+    font-size: 18px;
+    font-weight: 700;
+
+}
+#listas ul.customdes li{
+    list-style-type: square;
+
+}
+#listas ul.customdes li li {
+    list-style-type: disc;
+}
+#listas ul.customdes li li li {
+    list-style-type: circle;
+}
+
+#listas ol.customord li{
+    list-style-type: decimal;
+
+}
+#listas ol.customord li li {
+    list-style-type: upper-latin;
+}
+#listas ol.customord li li li {
+    list-style-type: lower-latin;
+}
+#listas ul.customico1 li{
+    list-style-image: url('../img/RMfotoIco.png') ;
+
+}
+#listas ul.customico1 li li {
+    list-style: none;
+    list-style-type: url('../img/masculinoIco.png');
+}
+#listas ul.customico1 li li li {
+    list-style-type: url('../img/plantillaIco.png');
+}
+#listas ul.customico2 li{
+    list-style-image: url('../img/barsa.png') ;
+
+}
+#listas ul.customico2 li li {
+    list-style-type: url('../img/femeninoIco.png');
+}
+#listas ul.customico2 li li li {
+    list-style-type: url('../img/plantillaIco.png');
+}
+.tabla1 th{
+    background-color: blue;
+}
+.tablaImpar     {
+    color: black;
+    background-color: red;
+}
+.tablaPar   {
+    color: black;
+    background-color: rgb(86, 181, 9)
+
+}
+
+
+.horario {
+    color: black;
+    text-align: center;
+    font-style: normal;
+    width: 650px;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+.horario2  td {
+    color: #048f7f;
+    background-color: #f0f0f0;
+    
+ 
+}
+.horario3  {
+    color: #048f7f;
+    background-color: #f0f0f0;
+} 
+.horario4  {
+    color: #048f7f;
+    background-color: #f0f0f0;
+    font-style: italic;
+    font-weight:bold 1000;
+
+}
+.BDD{
+    font-style: normal;
+    color: black;
+    background-color: #80ff80; 
+
+
+}
+.IPE{
+    color:black ;
+    background-color: #fd8082;
+}
+.PROG{
+    color:black ;
+    background-color: #64b4ef;
+}
+.sasp{
+    color:black ;
+    background-color: #27c8c8;
+}
+.dasp{
+    color:black ;
+    background-color: #fcff5b;
+}
+.sisi{
+    color:black ;
+    background-color: #65aa97;
+}
+.lm{
+    color:black ;
+    background-color: #d2d26e;
+}
+.in{
+    color:black ;
+    background-color: #ffa261;
+}
+.ende{
+    color:black ;
+    background-color: #c9a0c8;
+}
+.pimd{
+    color:black ;
+    background-color: #fdc899;
+}
+.titulosForm{
+    font-size: 18px;
+    color: rgb(248, 41, 0);
+    font-weight: bold;
+}
+.formLog{
+    width: 25%;
+    float: left;
+}
+.formReg{
+    width: 50%;
+    float: right;
+
+}
+.cb{
+    clear:both;
+}
+.formHtml{
+    width: 30%;
+    margin: 0 auto;
+}
+.galeria {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 100%; /* Asegúrate de que el contenedor tenga suficiente ancho */
+    overflow: auto; /* Asegura que el contenedor incluya elementos flotantes */
+    box-sizing: border-box; /* Asegúrate de que el padding y el margen se incluyan en el tamaño total */
+  }
+  /* Estilo de cada imagen */
+  .img3 {
+    float: left;
+    width: 33.3%;
+  }
+
+
+
+
+
