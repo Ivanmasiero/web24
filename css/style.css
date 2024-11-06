@@ -1,29 +1,34 @@
 body {
     margin: 0;
+    background-color: black
 }
 
 * {
     box-sizing: border-box;
-    color: rgb(18, 0, 110);
+    color: rgb(255, 255, 255);
 }
 
 /* For desktop: */
 .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+    background-color: black;
 }
+
 /* For mobile: */
 @media screen and (max-width: 1000px) {
     .container {
         width: 100%;
     }
 }
+
 /* For desktop: */
 .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /* For mobile: */
 @media screen and (max-width: 1000px) {
     .row {
@@ -101,10 +106,13 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0px 0px 15px 7px rgb(0 215 28);
+    
     border-radius: 10px;
 }
-nav ul{
+
+
+nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -115,6 +123,7 @@ nav li {
     padding: 10px;
     font-size: 20px;
 }
+
 /* For mobile: */
 @media screen and (max-width: 1000px) {
     nav li {
@@ -122,59 +131,72 @@ nav li {
         justify-content: center;
         font-size: 30px;
     }
+
     nav ul {
-        background-color: rgb(243, 251, 254);
+        background-color: rgb(0, 0, 0);
     }
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: white;
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background-color: rgb(0, 143, 19);
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
 a {
     text-decoration: none;
 }
+
 .text-center {
     text-align: center;
 }
+
 .py-3 {
     padding: 16px 0;
 }
+
 .px-3 {
     padding: 0 16px;
 }
+
 .p-3 {
     padding: 16px;
 }
 
 .bg-azul-o {
-    background-color: rgb(0 157 222);
+    background-color: rgb(0 215 28);
 }
+
+
+
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
 }
+
 .bg-orange {
     background-color: orange;
 }
+
 .text-white {
-    color: white;
+    color: black;
 }
+
 .text-red {
     color: red;
     font-size: 30px;
     background-color: cyan;
 }
+
 footer h1 {
     border-bottom-left-radius: 10px;
 }
+
 footer h1 {
     border-bottom-right-radius: 10px;
 }
@@ -187,100 +209,124 @@ h1 {
     font-size: 40px;
     display: none;
 }
+
 /* For mobile: */
 @media screen and (max-width: 1000px) {
     #btnmenu {
         display: inline;
     }
-    #menu{
+
+    #menu {
         display: none;
     }
 }
-@media screen and (max-width: 1600px) and (min-width: 1000px)  {
-    #menu{
+
+@media screen and (max-width: 1600px) and (min-width: 1000px) {
+    #menu {
         display: block;
     }
 }
-.etiqueta{
-    color: purple;
-    font-size: 24px;
-    font-weight: bold;
 
-}
-.atributo{
+    
+
+.atributo {
     color: rgb(0, 182, 0);
     font-size: 24px;
 }
-.enlaces{
-    color: blue;
+
+.enlaces {
+    color: rgb(0 215 28);
     font-size: 18px;
 }
-.titulos{
-    color: rgb(248, 41, 0);
+
+.titulos {
+    color: rgb(0 215 28);
     font-size: 20px;
-    font-weight: 900;
-    font-style: italic;
+    font-weight: 1000;
     
+
 }
-.titulosListas{
-    color: rgb(159, 0, 159);
+.color{
+    color: rgb(0 215 28);
+}
+.colorParr{
+    color: rgb(0 215 28);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.titulosListas {
+    color: rgb(0 215 28);
     font-size: 18px;
     font-weight: 700;
 
 }
-#listas ul.customdes li{
+
+#listas ul.customdes li {
     list-style-type: square;
 
 }
+
 #listas ul.customdes li li {
     list-style-type: disc;
 }
+
 #listas ul.customdes li li li {
     list-style-type: circle;
 }
 
-#listas ol.customord li{
+#listas ol.customord li {
     list-style-type: decimal;
 
 }
+
 #listas ol.customord li li {
     list-style-type: upper-latin;
 }
+
 #listas ol.customord li li li {
     list-style-type: lower-latin;
 }
-#listas ul.customico1 li{
-    list-style-image: url('../img/RMfotoIco.png') ;
+
+#listas ul.customico1 li {
+    list-style-image: url('../img/RMfotoIco.png');
 
 }
+
 #listas ul.customico1 li li {
     list-style: none;
     list-style-type: url('../img/masculinoIco.png');
 }
+
 #listas ul.customico1 li li li {
     list-style-type: url('../img/plantillaIco.png');
 }
-#listas ul.customico2 li{
-    list-style-image: url('../img/barsa.png') ;
+
+#listas ul.customico2 li {
+    list-style-image: url('../img/barsa.png');
 
 }
+
 #listas ul.customico2 li li {
     list-style-type: url('../img/femeninoIco.png');
 }
+
 #listas ul.customico2 li li li {
     list-style-type: url('../img/plantillaIco.png');
 }
-.tabla1 th{
+
+.tabla1 th {
     background-color: blue;
 }
-.tablaImpar     {
+
+.tablaImpar {
     color: black;
     background-color: red;
 }
-.tablaPar   {
+
+.tablaPar {
     color: black;
     background-color: rgb(86, 181, 9)
-
 }
 
 
@@ -291,103 +337,152 @@ h1 {
     width: 650px;
     height: 150px;
     margin: 0 auto;
-    
+
 }
-.horario2  td {
+
+.horario2 td {
     color: #048f7f;
     background-color: #f0f0f0;
-    
- 
+
+
 }
-.horario3  {
+
+.horario3 {
     color: #048f7f;
     background-color: #f0f0f0;
-} 
-.horario4  {
+}
+
+.horario4 {
     color: #048f7f;
     background-color: #f0f0f0;
     font-style: italic;
-    font-weight:bold 1000;
+    font-weight: bold 1000;
 
 }
-.BDD{
+
+.BDD {
     font-style: normal;
     color: black;
-    background-color: #80ff80; 
+    background-color: #80ff80;
 
 
 }
-.IPE{
-    color:black ;
+
+.IPE {
+    color: black;
     background-color: #fd8082;
 }
-.PROG{
-    color:black ;
+
+.PROG {
+    color: black;
     background-color: #64b4ef;
 }
-.sasp{
-    color:black ;
+
+.sasp {
+    color: black;
     background-color: #27c8c8;
 }
-.dasp{
-    color:black ;
+
+.dasp {
+    color: black;
     background-color: #fcff5b;
 }
-.sisi{
-    color:black ;
+
+.sisi {
+    color: black;
     background-color: #65aa97;
 }
-.lm{
-    color:black ;
+
+.lm {
+    color: black;
     background-color: #d2d26e;
 }
-.in{
-    color:black ;
+
+.in {
+    color: black;
     background-color: #ffa261;
 }
-.ende{
-    color:black ;
+
+.ende {
+    color: black;
     background-color: #c9a0c8;
 }
-.pimd{
-    color:black ;
+
+.pimd {
+    color: black;
     background-color: #fdc899;
 }
-.titulosForm{
+
+.titulosForm {
     font-size: 18px;
-    color: rgb(248, 41, 0);
+    color: rgb(0 215 28);
     font-weight: bold;
 }
-.formLog{
+
+.formLog {
     width: 25%;
     float: left;
 }
-.formReg{
+
+.formReg {
     width: 50%;
     float: right;
 
 }
-.cb{
-    clear:both;
+
+.cb {
+    clear: both;
 }
-.formHtml{
+
+.formHtml {
     width: 30%;
     margin: 0 auto;
 }
-.galeria {
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 100%; /* Asegúrate de que el contenedor tenga suficiente ancho */
-    overflow: auto; /* Asegura que el contenedor incluya elementos flotantes */
-    box-sizing: border-box; /* Asegúrate de que el padding y el margen se incluyan en el tamaño total */
-  }
-  /* Estilo de cada imagen */
-  .img3 {
+
+.img3 {
     float: left;
-    width: 33.3%;
-  }
+    width: 33.33%;
+}
+.img2{
+    float: left;
+    width: 50%;
+}
+.tab-tit{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-tit table{
+    margin: 0 auto;
 
+}
+.sep{
+    margin-top: 70px;
+}
+.colorForm{
+    background-color: rgb(0 215 28);
+    
+}
+.colorBor{
+    border: rgb(0 215 28);
+}
+.colorblack{
+    color: black;
+}
+section{
+    display: flex;
+    width: 1350px;
+    height: 640px;
 
-
-
-
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
