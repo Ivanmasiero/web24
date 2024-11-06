@@ -459,7 +459,9 @@ h1 {
     margin-top: 70px;
 }
 .colorForm{
-    background-color: rgb(0 215 28);
+    background-color: white;
+    color: rgb(0 215 28) ;
+    font-weight: 550;
     
 }
 .colorBor{
