@@ -337,6 +337,7 @@ h1 {
     width: 650px;
     height: 150px;
     margin: 0 auto;
+    background-color: white;
 
 }
 
@@ -357,6 +358,8 @@ h1 {
     background-color: #f0f0f0;
     font-style: italic;
     font-weight: bold 1000;
+    
+
 
 }
 
@@ -490,4 +493,8 @@ section img:hover{
 }
 .titfield{
     text-align: left;
+}
+.etiqutadam{
+    font-size: 24;
+    color: #048f7f;
 }
